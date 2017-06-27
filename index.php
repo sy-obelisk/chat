@@ -1,10 +1,5 @@
 <?php
-if(extension_loaded('sockets')){
-    echo "已开启";
-}else{
-    echo "未开启";
-}
-die;
+phpinfo();die;
 /**
  * author: NickBai
  * createTime: 2016/12/9 0009 下午 4:19
