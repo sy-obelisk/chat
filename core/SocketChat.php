@@ -34,7 +34,7 @@ class SocketChat
         while( true ){
             $readFds = self::$connectPool;
             //阻塞接收客户端链接
-            socket_select( $readFds, $writeFds, $e = null, $this->timeout );
+            @socket_select( $readFds, $writeFds, $e = null, $this->timeout );
             foreach( $readFds as $socket ){
                 //当前链接 是主进程
                 if( $this->master == $socket ){
