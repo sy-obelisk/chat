@@ -158,6 +158,7 @@
 	           <div class="thumbnail">
                    <div class="caption" id="userlist"></div>
                </div>
+                <h1>雷哥网</h1>
 	        </div>
 	    </div>
     </div>
