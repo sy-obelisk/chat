@@ -1,5 +1,4 @@
 <?php
-phpinfo();die;
 /**
  * author: NickBai
  * createTime: 2016/12/9 0009 下午 4:19
