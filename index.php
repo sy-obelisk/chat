@@ -12,5 +12,4 @@ require_once('./core/SocketChat.php');
 
 //run server
 $port = 80;
-var_dump();
 new NickBai\SocketChat( $port );
