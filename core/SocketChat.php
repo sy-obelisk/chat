@@ -36,6 +36,7 @@ class SocketChat
             //阻塞接收客户端链接
             @socket_select( $readFds, $writeFds, $e = null, $this->timeout );
             foreach( $readFds as $socket ){
+                var_dump(111);die;
                 //当前链接 是主进程
                 if( $this->master == $socket ){
 
